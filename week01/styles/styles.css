@@ -21,7 +21,6 @@ nav {
   grid-column: 1 / 4;
   padding: 1rem;
 }
-
 .left-sidebar {
   background: lightblue;
   grid-column: 1 / 2;
