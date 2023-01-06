@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 - Portal - Leah Tajon</title>
+    <meta name="description" content="A course assignment portal of Leah Tajon in WDD 230 class.">
+    <meta name="author" content="Leah Tajon">
+    <!-- Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.4.6/css/flag-icon.min.css" rel="stylesheet">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <nav>
+        
+        <a href="https://www.linkedin.com/in/leahtajon/">LinkedIn</a>
+        <a href="https://www.byupathway.org/">BYU-Idaho</a>
+        <i class="material-icons">menu</i>
+        
+    </nav>
+    <header>
+        <img src="images/profile-photo-2.jpg" alt="Leah Tajon photo" width="250px">
+        <h1 contenteditable>Hi! I'm <span>Leah Tajon</span></h1>
+    </header>
+    <main contenteditable>
+        <h2>WDD 230: Course Activity Portal</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li><a href="#">Week #1</a></li>
+                <li><a href="#">Week #2</a></li>
+                <li><a href="#">Week #3</a></li>
+                <li><a href="#">Week #4</a></li>
+                <li><a href="#">Week #5</a></li>
+                <li><a href="#">Week #6</a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h3>Project</h3>
+            <a href="#">My Project</a>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+
+            <label for="weather">Weather: </label>
+            <input type="text" id="weather" name="weather" placeholder="Weather">
+
+            <label for="visits">Number of visits:</label>
+            <input type="text" id="visits" name="visits" placeholder="Number of visits to the page">
+
+        </section>
+    </main>
+    <footer contenteditable>
+        <p>Copyright &copy; <span id="year">year</span> | Leah Tajon | Guam, USA <span class="flag-icon flag-icon-gu"></span></p>
+        <p class="highlight" id="lastModified">Last Modified: </p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
