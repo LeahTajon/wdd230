@@ -1,17 +1,17 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Lato&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #F45B69 ;
-  --secondary-color: #F6E8EA ;
-  --accent1-color: #22181C ;
-  --accent2-color: #F13030  ;
+  --primary-color: #D07318 ;
+  --secondary-color: #e0a97A ;
+  --accent1-color: #9EC1CC ;
+  --accent2-color: #333333   ;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Playfair Display", serif;
+  --heading-font: "Crimson Text", serif;
   --paragraph-font: "Lato", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -83,10 +83,11 @@ p {
 }
 .accent1 {
   background-color: var(--accent1-color);
-  color: white;
+  
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: white;
 }
 
 p.colored {
