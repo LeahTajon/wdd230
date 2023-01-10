@@ -91,7 +91,8 @@ main h2 {
 }
 .card a {
     text-decoration: none;
-    color: #4b33dd;
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.6);
     padding: 2em;
     cursor: pointer;
 }
