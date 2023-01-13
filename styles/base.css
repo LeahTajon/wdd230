@@ -91,6 +91,7 @@ nav {
 
 header {
     padding-top: 8em;
+    padding-bottom: 2em;
     background-color: var(--snow);
     display: flex;
     flex-direction: column;
@@ -112,6 +113,8 @@ header h1 {
 header span {
     font-family: "Lora", serif;
     color: var(--rich-black);
+    border-bottom: 3px dotted var(--peach);
+    
 }
 
 main {
@@ -124,6 +127,7 @@ main {
 }
 
 main h2 {
+    padding-top: 2rem;
     grid-column-start: 1;
     grid-column-end: 4;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
