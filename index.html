@@ -14,6 +14,7 @@
     <meta property="og:url" content="https://leahtajon.github.io/wdd230/" />
 
     <link rel="icon" href="https://leahtajon.github.io/wdd230/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Icon -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.4.6/css/flag-icon.min.css" rel="stylesheet">
@@ -26,11 +27,29 @@
     <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    <nav>
-        <a href="https://www.linkedin.com/in/leahtajon/">LinkedIn</a>
-        <a href="https://www.byupathway.org/">BYU-Idaho</a>
-        <i class="material-icons">menu</i>
-    </nav>
+    
+    <!-- <nav>
+        <a href="https://www.linkedin.com/in/leahtajon/" class="menu-item">LinkedIn</a>
+        <a href="https://www.byupathway.org/" class="menu-item">BYU-Idaho</a>
+    </nav> -->
+    <div class="container">
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/leahtajon/" class="nav-link">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.byupathway.org/" class="nav-link">BYU-Idaho</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </div>
     <header>
         <img src="images/profile-photo-2.jpg" alt="Leah Tajon photo" width="250px">
         <h1 contenteditable>Hi! I'm <span>Leah Tajon</span></h1>
@@ -69,6 +88,7 @@
             <p class="highlight" id="lastModified">Last Modified: </p>
         </footer>
         <script src="https://leahtajon.github.io/wdd230/scripts/getDates.js"></script>
+        <script src="./scripts/menu-button.js"></script>
     
     </main>
 </body>

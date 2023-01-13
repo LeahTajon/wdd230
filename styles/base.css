@@ -23,33 +23,64 @@ html {
 
 a {
     cursor: pointer;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 76.5rem;
+    width: 90%;
+    margin: 0 auto;;
 }
 
 nav {
     position: fixed;
     top: 0; left: 0; right: 0;
     background: white;
-    padding: 1rem;
-    display: flex;
-    justify-content: right;
-    gap: 1.5em;
     z-index: 1000;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
     border-top: .5em solid var(--peach);
 }
 
-nav a, nav i {
+.navbar {
+    min-height: 4.375rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.nav-link {
     color: var(--rich-black);
-}
-
-
-nav a {
     font-weight: bold;
-    padding: 0 1.5rem;
+    transition: 0.3s ease-out;
 }
 
-nav a:hover, nav i:hover {
+.nav-link:hover {
     color: var(--peach);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: var(--rich-black);
 }
 
 header {
