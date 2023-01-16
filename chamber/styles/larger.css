@@ -72,9 +72,25 @@
         padding: 1rem 0;
     }
 
-    footer {
-        font-size: medium;
+    /* Events */
+    .events-row,
+    .upcoming-events {
+        margin: 0;
+        padding: 0 1rem;
     }
 
+    .main-event {
+        text-align: center;
+    }
+
+    .event-heading {
+        text-align: center;
+    }
+
+    
+
 }
+
+
+
 

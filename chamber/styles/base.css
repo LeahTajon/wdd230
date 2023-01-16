@@ -45,6 +45,7 @@ hr {
     border-top: 1px solid var(--accent2-color);
     margin-top: 1rem;
 }
+
 .heading {
     text-align: center;
     font-size: 2rem;
@@ -76,21 +77,6 @@ hr {
     color: var(--accent3-color);
 }
 
-.event-link {
-    font-weight: bold;
-    color: var(--accent4-color);
-    font-family: var(--font-2);
-}
-
-.event-link:hover {
-    text-decoration: underline;
-}
-
-.text {
-    padding: .5rem 0;
-    font-size: 1.2rem;
-    font-family: var(--font-1);
-}
 
 
 /* Navigation */
@@ -264,132 +250,250 @@ nav {
 }
 
 /* Events and Weather */
-.events {
-    background-color: #f3f3f3;
-}
-.events .row {
+
+
+.events-row {
     display: flex;
-    align-items: center;
-    gap: 1rem;
     flex-wrap: wrap;
-    padding: 0 0 3rem 1rem;
+    align-items: flex-start;
     margin: 0 1rem;
+    gap: 2rem;
 }
 
-.events .row .main-event {
+.main-event {
     flex: 1 1 40rem;
     position: relative;
 }
 
-.main-event h3, 
-.main-event h4,
-.main-event p{
-    padding: 1rem 3.5rem 1rem 0;
-}
-
-
-
-.events .row .main-event img {
-    width: 90%;
-    height: 100%;
-    object-fit: cover;
-    border: .5rem solid #fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
-}
-
-.events .row .main-event h4 {
-    color: var(--primary-color);
-    padding-top: 1rem;
-    font-size: 1.2rem;
-}
-
-.events .row .main-event p {
+.event-heading {
+    font-size: 1.5rem;
     font-family: var(--font-1);
-    font-size: 1.2rem;
+    padding: 0 0 .5rem 0;
 }
 
+.event-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
 
-.events .row .upcoming-events {
+.event-text {
+    font-family: var(--font-1);
+    font-size: 1.2rem;  
+}
+
+.event-title,
+.event-text {
+    margin: 0 0 1rem 0;
+}
+
+.event-link {
+    color: var(--primary-color);
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5rem;
+    background-color: transparent; 
+    padding: 0.5rem 1.2rem;
+    border: 2px solid var(--primary-color);
+    -webkit-transition-duration: 0.4s; /*Safari  */
+    transition-duration: 0.4s;
+}
+
+.event-link:hover {
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+}
+
+.main-event img {
+    width: 100%;
+    border: .8rem solid var(--accent3-color);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    object-fit: cover;
+    margin: 0 0 1rem 0;
+}
+
+.upcoming-events {
     flex: 1 1 40rem;
-    justify-content: left;    
+    align-items: flex-start;
 }
 
-.events .row .upcoming-events {
-    margin-bottom: 1rem;
-}
-
-.upcoming-events h3, 
-.upcoming-event-container{
-    padding: 1rem 3.5rem 1rem 0;
+.upcoming-events-content {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    border: .5rem solid var(--accent3-color);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    min-height: 45vh;
+    background: rgba(0,0,0,0.1);
 }
 
 .date {
-    font-size: 2rem;
-    margin-bottom: .5rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
 }
 
 .date span {
     color: var(--primary-color);
-   
 }
 
-.upcoming-event-container {
-    background-color: rgba(0,0,0,0.1);
-    padding: 1.5rem;
+.line {
+    display: block;
+    width: 50%;
+    height: .2rem;
+    background-color: var(--accent1-color);
+    margin: 0 0 0.5rem 0; 
 }
 
-.upcoming-event-content {
-    padding: 1rem 0;
-    
-}
-
-.time-location, .caption {
-    padding: .5rem 0;
-}
-
-.time-location,
-.caption {
-    font-family: var(--font-2);
-}
-
-.caption h4{
-    color: var(--primary-color);
+.time-location {
     font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 0 0 0.5rem 0; 
+}
+
+.caption-title {
+    font-family: var(--font-2);;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin: 0 0 1rem 0;
+}
+
+.caption-text {
+    font-family: var(--font-1);
+    font-size: 1.2rem;
+    margin: 0 0 1.5rem 0;
 }
 
 .weather {
+    margin: 1rem 0; 
+}
+
+.weather-widget {
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+  
+.location {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.weather-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+
+}
+  
+.temperature {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.conditions {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Footer */ 
+
+footer {
+    background: var(--accent2-color);
+}
+
+.footer-container {
+    width: 90%;
+}
+.row-footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    flex: 2;
     
 }
 
-.weather-content {
+.col-1,
+.col-3 {
+    flex: 1;
+}
+
+.col-1, 
+.col-2, 
+.col-3 {
+    margin: 2rem 0 1rem 2rem;
+}
+
+.col-1 img {
+    margin: 0 0 1.5rem 0;
+}
+
+.col-1 h5 {
+    color: var(--accent3-color);
+    padding: 3rem 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: circle;
+}
+
+.footer-links a {
+    color: var(--accent3-color);   
+}
+
+.col-2 i {
+    border-radius: 50%;
+    background: var(--accent3-color);
+    padding: .5rem;
+    margin: .5rem 0;
+}
+
+.col-2 span {
+    margin-left: 1rem;
+    font-size: .8rem;
+    color: var(--accent3-color);
+}
+
+.col-3 h5,
+.col-3 p {
+    margin: 0 0 .5rem 0;
+    color: var(--accent3-color);
+}
+
+.col-3 p {
+    font-size: .8rem;
+}
+
+.col-3 ul {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    color: var(--accent3-color);
+}
+
+.student-info {
+    width: 100%;
+    color: var(--primary-color);
+    background: var(--accent2-color);
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    font-size: small;
+    justify-content: space-between;
+    
 }
 
-.weather-content input[type=text] {
-    width: 20%;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-}
 
-footer {
-    background: #212121;
-    color: #d9d9d9; 
-    padding: 2rem 0;
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 0;
-    padding: 1.5rem;
-}
-
-footer p {
-    padding: .5em;
-    font-size: .8em;
-}
 
 
