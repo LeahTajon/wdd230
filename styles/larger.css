@@ -41,14 +41,30 @@
        color: var(--snow);
     }
 
-    header {
-        padding-top: 8em;
+    /* header */ 
+    /* .label-temple {
+        top: 26rem;
+        left: 30%;
+    } */
+
+    .label-temple {
+        font-size: 50%;
+    }
+    .student-profile {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
     }
 
-    header img {
-        width: 50%;
+    .student-profile img{
+        width: 60%;
+        height: auto;
     }
-
+    .student-info {
+        padding: 0;
+        text-align: center;
+    }
     main {
         display: block;
         
