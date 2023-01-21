@@ -3,6 +3,7 @@ const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
 let chaptersArray = getChapterList() || [];
+
 chaptersArray.forEach(chapter => {
     displayList(chapter);
 });

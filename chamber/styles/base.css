@@ -494,6 +494,104 @@ footer {
     
 }
 
+/* DISCOVERY PAGE */
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* 250px for sidebar, 1fr for main content */
+}
+  
+.sidebar {
+    grid-column: 1; /* spans first column */
+    background-color: #dee5e5;
+    padding: 1.2rem 1.8rem 1.2rem 1.5rem;
+    color: var(--accent2-color);
+}
+  
+.main-content {
+    grid-column: 2; /* spans second column */
+    width: 100%;
+    display: grid;
+    text-align: center;
+}
+
+.sidebar-title {
+    margin: 1rem 0;
+}
+
+.sidebar-para {
+    font-size: .89rem;
+    line-height: 1.2rem;
+    padding: .5rem 0;  
+}
+
+.sidebar table {
+    margin: .5rem 0;
+}
+.sidebar td {
+    padding: .3rem 0;
+    font-size: .85rem;
+    vertical-align: text-top;
+}
+
+.sidebar .table-heading {
+    font-weight: bold;
+    font-size: .8rem;   
+}
+
+.local-storage {
+    border-top: 1px solid var(--accent2-color);
+    padding: 1.5rem 0;
+    font-weight: bold;
+}
+
+.local-storage p{
+    font-size: .8rem;
+    padding: .5rem 0;
+}
+
+.local-storage span {
+    font-size: 1rem;
+    color: var(--accent4-color);
+}
+
+.photo-wrapper {
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+}
+
+.local-photo:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.photo-wrapper figcaption {
+    font-family: var(--font-2);
+    text-align: left;
+    color: var(--accent4-color);
+    
+}
+
+.local-photo {
+    width: 100%;
+    min-height: 80vh;
+    object-fit: cover;  
+}
+
+.photo-article {
+    text-align: left;
+    padding: 1rem 0;
+    font-family: var(--font-1);
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 

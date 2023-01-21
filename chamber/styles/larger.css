@@ -87,8 +87,28 @@
         text-align: center;
     }
 
-    
+    /* DISCOVERY PAGE */
+    .sidebar {
+        grid-area: sidebar;
+    }
 
+    .main-content {
+        grid-area: main;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "main main"
+            "sidebar sidebar";
+    }
+
+    .local-photo:hover {
+        box-shadow: none;
+    }
+ 
 }
 
 
