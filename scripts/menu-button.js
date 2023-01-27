@@ -18,7 +18,7 @@ const message = document.querySelector('.form-message');
 
 function checkSame() {
     if (password1.value !== password2.value) {
-        message.textContent = 'Password does not match!';
+        message.textContent = 'Password does not match! Please try again.';
         message.style.display = "block";
 		password2.style.backgroundColor = "#aa3333";
 		password2.style.color = "#fff";
