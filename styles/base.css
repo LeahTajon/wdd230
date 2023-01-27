@@ -323,6 +323,45 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+/*-----------TABLE-----------------*/
+table {
+    display: none;
+    margin: 0 auto;
+    width: 100%;
+    border: thin solid var(--baby-pink);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 1em;
+    caption-side: bottom;
+    color: var(--rich-black);
+    font-size: .85em;
+    font-style: italic;
+}
+
+tr:first-child th {
+    background-color: var(--imperial-red);
+    color: var(--snow);
+    font-size: larger;
+    text-align: center;
+}
+
+thead:nth-child(2) th {
+    text-align: center;
+}
+
+th, td {
+    padding: 7px 30px;
+    border: 1px solid var(--peach);
+    text-align: right;
+    font-weight: bold;
+    background-color: var(--snow);
+}
+
+
+
 footer {
     background: #212121;
     color: #d9d9d9; 

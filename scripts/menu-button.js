@@ -36,3 +36,30 @@ password2.addEventListener('focusout', checkSame);
 function showValue(value) {
     document.getElementById("rating-value").innerHTML = value;
   }
+
+const submitBtn = document.querySelector('.submitBtn');
+
+submitBtn.addEventListener('click', (event) => {
+  const fname = document.getElementById('fname');
+  const name = document.getElementById('name');
+
+  const userEmail = document.getElementById('user-email');
+  const email = document.getElementById('email');
+
+  const ratingValue = document.getElementById('rating');
+  const rating = document.getElementById('rating-display');
+
+  document.querySelector('table').style.display = 'block';
+  
+  name.innerHTML = fname.value;
+  email.innerHTML = userEmail.value;
+  rating.innerHTML = ratingValue.value;
+
+  fname.focus();
+  fname.textContent = '';
+
+  event.preventDefault();
+  
+  
+
+});
