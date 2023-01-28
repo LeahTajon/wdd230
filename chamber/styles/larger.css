@@ -102,19 +102,16 @@
     }
 
     /* Events */
-    .events-row,
-    .upcoming-events {
-        margin: 0;
-        padding: 0 1rem;
+    .events-row {
+        margin: 0 auto;
     }
 
-    .main-event {
-        text-align: center;
+    .main-event, .upcoming-events {
+        width: 100%;
+        margin: 1rem;
     }
 
-    .event-heading {
-        text-align: center;
-    }
+    
 
     /* DISCOVERY PAGE */
     .sidebar {
