@@ -108,7 +108,14 @@
     .local-photo:hover {
         box-shadow: none;
     }
- 
+    
+    main .container {
+        display: block;
+    }
+
+    .container .member-benefits {
+        width: 100%;
+    }
 }
 
 

@@ -152,12 +152,12 @@ nav {
     text-transform: capitalize;
 }
 
-.hero-text h1, .hero-text button {
+.hero-text h1, .hero-text a {
     margin-top: 1.5em;
     text-align: center;
 }
 
-.hero-text button {
+/* .hero-text button {
     background-color: transparent;
     
     border: 2px solid var(--accent3-color);
@@ -168,13 +168,39 @@ nav {
     font-weight: bold;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+    /* transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+/* }
 
 .hero-text button:hover {
-    color: var(--accent4-color);
     background-color: var(--accent3-color);
+    color: var(--accent4-color);
+} */
+/* .hero-text a {
+    color: var(--accent3-color);
+}
+
+.hero-text a:hover {
+    color: var(--accent4-color);
+} */ 
+
+.hero-text a {
+    background-color: transparent;
+    border: 2px solid var(--accent3-color);
+    color: var(--accent3-color);
+    padding: 0.938rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: .125rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.4s;
+}
+
+.hero-text a:hover {
+    background-color: var(--accent3-color);
+    color: var(--accent4-color);
 }
 
 /* About */
@@ -584,11 +610,190 @@ footer {
     font-size: 1.3rem;
 }
 
+/*----------- JOIN PAGE --------------*/
+main .container {
+    display: flex;
+}
 
+.form-section {
+    flex: 1;
+}
 
+main h1,
+main h2, 
+main p {
+    margin: 1.5rem;
+    width: 90%;    
+}
 
+main h1 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
 
+main p, .member-benefits p {
+    font-family: var(--font-1);
+    font-size: 1.5rem;
+    color: var(--accent2-color);
+}
 
+.form-section {
+    margin: 0 1.5rem;
+    
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: .5rem 2%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+form legend {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: var(--accent4-color);
+    font-size: .9rem;
+}
+
+form label.top input, form textarea {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--accent2-color);
+    width: 96%;
+}
+
+form ul li {
+    color: var(--accent2-color);
+    width: 100%;
+    height: 2rem;
+    margin: .5rem 0;
+}
+
+form ul li label {
+    font-size: 1rem;
+    padding: 0 .3rem;
+    cursor: pointer;
+    
+}
+
+form textarea {
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: .3rem .5rem 1.5rem 0;
+    width: 50%;
+    max-width: 20rem;
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.container .member-benefits {
+    width: 50%;
+    margin: .5rem 0; 
+}
+
+.member-benefits p {
+    font-size: 1.2rem;
+}
+
+.card {
+    margin: 1.5rem;
+    padding: 1rem;
+    color: #202020;
+    border-radius: 10px;
+    min-height: 40vh;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    padding: .5rem 2rem .5rem 0;
+    border-bottom: solid 1.5px rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+}
+
+.card h4 {   
+   
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: var(--font-1);
+    text-transform: none;
+    background-color: var(--accent3-color);
+    padding: .3rem 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.card p {
+    font-family: var(--font-2);
+    margin: .8rem 0;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+}
+
+.card ul {
+   margin: 1.5rem 3rem;
+   font-family: var(--font-1);
+   font-size: 1.2rem;
+}
+
+.card ul li{
+    list-style: disc;
+}
+
+.card hr {
+    display: block;
+    border: none;
+    height: 1.5px;
+    background-color: var(--accent2-color);
+    width: 100%;
+}
+
+.np {
+    background-color: var(--accent1-color);
+}
+
+.np p {
+    margin: 1rem 0 6rem 0;
+}
+
+.bronze {
+    background-color: #CD7F32;
+}
+
+.silver {
+    background-color: #C0C0C0;
+}
+
+.gold {
+    background-color: #FFD700;
+}
+
+/*------------------THANKS------------------*/
+main .thanks {
+    height: 25rem;
+}
 
 
 
