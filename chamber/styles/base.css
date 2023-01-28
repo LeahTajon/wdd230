@@ -53,6 +53,7 @@ hr {
     padding: 1rem;
     margin: 1.5rem 0;
     background: rgba(255, 51, 153, .05);
+    width: 100%;
 }
 
 .heading span {
@@ -255,7 +256,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin: 0 auto;
+    margin: 0 1rem;
     gap: 1.5rem;
 }
 
