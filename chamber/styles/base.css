@@ -157,33 +157,6 @@ nav {
     text-align: center;
 }
 
-/* .hero-text button {
-    background-color: transparent;
-    
-    border: 2px solid var(--accent3-color);
-    color: var(--accent3-color);
-    padding: 0.938rem 2rem;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    /* transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
-/* }
-
-.hero-text button:hover {
-    background-color: var(--accent3-color);
-    color: var(--accent4-color);
-} */
-/* .hero-text a {
-    color: var(--accent3-color);
-}
-
-.hero-text a:hover {
-    color: var(--accent4-color);
-} */ 
-
 .hero-text a {
     background-color: transparent;
     border: 2px solid var(--accent3-color);
@@ -425,55 +398,42 @@ nav {
     text-align: center;
 }
 
-/* Footer */ 
-
+/* FOOTER */
 footer {
     background: var(--accent2-color);
 }
 
-.footer-container {
-    width: 90%;
-}
 .row-footer {
     display: flex;
-    justify-content: space-around;
-    gap: 5rem;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.5rem;
+    padding: 1.5rem;
+    color: var(--accent3-color);
+}
+.col-1 {
+    width: 40%;
 }
 
 .col-2 {
-    flex: 2;
-    
+    width: 40%;
 }
 
-.col-1,
 .col-3 {
-    flex: 1;
+    width: 30%;
 }
-
-.col-1, 
-.col-2, 
-.col-3 {
-    margin: 2rem 0 1rem 2rem;
-}
-
-.col-1 img {
-    margin: 0 0 1.5rem 0;
-}
-
-.col-1 h5 {
-    color: var(--accent3-color);
-    padding: 3rem 0;
-}
-
-.footer-links {
+.col-1 .footer-links {
     display: flex;
     gap: 1.5rem;
     list-style: circle;
+    padding: 2rem 0 1.5rem 0;
 }
 
 .footer-links a {
-    color: var(--accent3-color);   
+    color: var(--accent3-color);
+}
+
+.footer-links a:hover {
+    color: var(--accent4-color);
 }
 
 .col-2 i {
@@ -481,44 +441,43 @@ footer {
     background: var(--accent3-color);
     padding: .5rem;
     margin: .5rem 0;
+    color: var(--accent2-color);
 }
 
 .col-2 span {
     margin-left: 1rem;
-    font-size: .8rem;
     color: var(--accent3-color);
 }
 
-.col-3 h5,
+.col-3 h4,
 .col-3 p {
     margin: 0 0 .5rem 0;
     color: var(--accent3-color);
 }
 
 .col-3 p {
-    font-size: .8rem;
+    font-size: .98rem;
 }
 
 .col-3 ul {
     display: flex;
     gap: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--accent3-color);
+    cursor: pointer;
 }
 
 .student-info {
-    width: 100%;
-    color: var(--primary-color);
-    background: var(--accent2-color);
-    text-align: center;
-    padding: 1rem 2rem;
-    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    font-size: small;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 1rem 0;
+    color: var(--primary-color);
+
 }
+
 
 /* DISCOVERY PAGE */
 .grid-container {

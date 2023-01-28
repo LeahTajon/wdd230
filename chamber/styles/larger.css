@@ -72,6 +72,35 @@
         padding: 1rem 0;
     }
 
+    /* Footer */
+    .row-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-1, 
+    .col-2 {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .col-3 p {
+        line-height: 1.2rem;
+    }
+
+    .student-info {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .student-info p{
+        padding: .1rem 0;
+    }
+
     /* Events */
     .events-row,
     .upcoming-events {
