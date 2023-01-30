@@ -1,0 +1,28 @@
+{
+    "familyName" : "Tajon",
+    "dateMoved" : "12 June 2017",
+    "numberOfRecords": 4,
+    "isVisited": true,
+    "familyMembers": [
+        {
+            "name": "Jake",
+            "gender": "Male",
+            "birtdate": "22 March 1988"
+        },
+        {
+            "name": "Leah",
+            "gender": "Female",
+            "birtdate": "10 July 1988"
+        },
+        {
+            "name": "Jaeliana Yui",
+            "gender": "Female",
+            "birtdate": "25 August 2013"
+        },
+        {
+            "name": "Lorenzo Akio",
+            "gender": "Male",
+            "birtdate": "22 December 2019"
+        }
+    ]
+}
