@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #999;
+}
+
+header h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    margin: .5rem;
+}
+
+#cards section {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#cards section img {
+    margin: 0 0 .5rem 0; 
+    object-fit: cover;
+    border: 1px solid rgba(0,0,0,0.1);
+
+}
+
+#cards section h2 {
+    color: #333;
+    margin: 0 0 .8rem 0;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 1.3rem;
+}
+
+#cards section p {
+    color: #007bff;
+    font-size: .95rem;
+}
+
+#cards section p:last-child {
+    margin: 0 0 .5rem 0;
+    
+}
+
