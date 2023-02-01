@@ -108,13 +108,13 @@
             <h3>Learning Activities</h3>
             <ul>
                 <li><span>Week 01:</span> 
-                    <a href="https://leahtajon.github.io/wdd230/week01/holygrail.html" onclick="window.open('/week01/media-query.html','_self');">Holy Grail</a> 
-                    <a href="https://leahtajon.github.io/wdd230/week01/media-query.html" onclick="window.open('/week01/media-query.html','_self');">Media Query</a> 
-                    <a href="https://leahtajon.github.io/wdd230/week01/applied-javascript/dist/index.html"  onclick="window.open('/week01/applied-javascript/dist/index.html','_self');">Applied JavaScript</a>
+                    <a href="./week01/holygrail.html">Holy Grail</a>
+                    <a href="./week01/media-query.html">Media Query</a>
+                    <a href="./week01/applied-javascript/dist/index.html">Applied JavaScript</a>
                 </li>
                 <li><span>Week 02:</span> 
-                    <a href="https://leahtajon.github.io/wdd230/week02/wdd-responsive-menustart/dist/index.html" onclick="window.open('/week02/wdd-responsive-menustart/dist/index.html','_self');">Responsive Menu</a> -
-                    <a href="https://leahtajon.github.io/wdd230/week02/bom.html" onclick="window.open('/week02/bom.html','_self');">BOM</a>
+                    <a href="./week02/wdd-responsive-menustart/dist/index.html">Responsive Menu</a> -
+                    <a href="./week02/bom.html">BOM</a>
                 </li>
                 <li><span>Week 03:</span>
                     <a href="./week03/images/landscape.webp">WebP</a>
@@ -141,19 +141,28 @@
             <a href="https://leahtajon.github.io/wdd230/week01/chamber-site-plan.html" onclick="window.open('week01/chamber-site-plan.html','_self');">Guam Women's Chamber of Commerce Site Plan</a><br>
             <a href="https://leahtajon.github.io/wdd230/chamber/index.html" onclick="window.open('chamber/index.html','_self');">Guam Women's Chamber of Commerce Home Page</a>
         </section>
+
         <section class="card">
             <h3>Information</h3>
-
-            <label for="weather">Weather: </label>
-            <input type="text" id="weather" name="weather" placeholder="Weather">
-            <br/>
-            <!-- <label for="visits">Number of visits:</label>
-            <input type="text" id="visits" name="visits" placeholder="Number of visits to the page"> -->
-            <p>Number of Visits: <span class="visits"></span></p>
+            <div class="weather-info">
+                <h4 id="temp"></h4>
+                <img src="" alt="" id="weather-icon">
+                <p id="weather-desc"></p>
+                
+            </div>
+            <div class="visit--info">
+                <p>Number of Visits: <span class="visits"></span></p>
+            </div>
         </section>
-       
-        <section class="form">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15514.414461747729!2d144.84699475127738!3d13.559890700208305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1674176631059!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          
+    </main>
+    <section class="map-form">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15514.414461747729!2d144.84699475127738!3d13.559890700208305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1674176631059!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map-frame"></iframe>
+        </div>
+        
+        <div class="form">
             <form>
                 <form>
                 <fieldset>
@@ -167,45 +176,41 @@
                     </label>
                     <label class="top">Password: (should contain 5 - 12 letters, numbers and non-alphanumeric characters)<input class='password1' type="password" pattern="[\w\d\W]+{5,12}" required></label>
                     <label class="top">Re-enter Password: <input class='password2' type="password" required></label>
-                   
+                
                     <div class="form-message"></div>
                 </fieldset>
                 <input type="submit" value="Send" class="submitBtn">
             </form>
-            <section>
-                <table>
-                    <caption>Figure 1: HTML Table Output</caption>
-                    <thead>
-                        <tr>
-                            <th colspan="2" scope="colgroup">Form Input</th>
-                        </tr>
-                        <tr>
-                            <th scope="col">Field</th>
-                            <th scope="col">Value</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Name: </td>
-                            <td id="name"></td>
-                        </tr>
-                        <tr>
-                            <td>Email: </td>
-                            <td id="email"></td>
-                        </tr>
-                        <tr>
-                            <td>Rating: </td>
-                            <td id="rating-display"></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </section>
-       
-        
-        
-           
-    </main>
+        </div>
+    </section>
+    <section>
+        <table>
+            <caption>Figure 1: HTML Table Output</caption>
+            <thead>
+                <tr>
+                    <th colspan="2" scope="colgroup">Form Input</th>
+                </tr>
+                <tr>
+                    <th scope="col">Field</th>
+                    <th scope="col">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name: </td>
+                    <td id="name"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td id="email"></td>
+                </tr>
+                <tr>
+                    <td>Rating: </td>
+                    <td id="rating-display"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     <footer contenteditable>
         <p>Copyright &copy; <span id="year">year</span> | Leah Tajon | Guam, USA 🇬🇺</p>
        
@@ -214,7 +219,8 @@
 
     <script src="https://leahtajon.github.io/wdd230/scripts/getDates.js"></script>
     <script src="./scripts/menu-button.js"></script>
+    <script src="./scripts/getWeather.js"></script>
     <script src="./scripts/mode.js"></script>
-    <!-- <script src="./scripts/getVisits.js"></script> -->
+    <script src="./scripts/getVisits.js"></script>
 </body>
 </html>

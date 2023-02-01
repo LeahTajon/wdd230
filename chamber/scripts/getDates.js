@@ -8,5 +8,6 @@ document.getElementById('lastModified').innerHTML = `Last modified: ${document.l
 window.onload = function() {
     var currentDate = new Date();
     document.getElementById("form-loaded-time").value = currentDate.toString();
-  }
+}
   
+

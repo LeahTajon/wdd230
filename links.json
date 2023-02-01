@@ -1,0 +1,7 @@
+{
+    "week01": ["./week01/holygrail.html","./week01/media-query.html","./week01/applied-javascript/dist/index.html"],
+    "week02": ["./week02/wdd-responsive-menustart/dist/index.html","./week02/bom.html"],
+    "week03": ["./week03/images/landscape.webp","./week03/lazyload.html","https://codepen.io/leahtajon/pen/PoBOGEo","./week03/bom.html"],
+    "week04": ["https://codepen.io/leahtajon/pen/LYBQjKr","./week04/images/combinator-exercise.png","./week04/tablebuild.html","./week04/form-start/index.html"],
+    "week05": ["https://codepen.io/leahtajon/pen/xxJJmYo","./week05/new-ward-members.json","./week05/prophets.html","./week05/weather.html"]
+}
