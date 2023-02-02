@@ -4,9 +4,10 @@
             "name": "Ada's Trust & Investment, Inc.",
             "address": "120 Father Duenas Ave. Capitol Plaza, Ste 101 Hagatna, GU 96910",
             "phoneNumber": "+1(671)689-1234",
-            "websiteUrl": "www.adastrust.com",
+            "websiteUrl": "https://adastrust.com/",
             "companyImage": "https://adastrust.com/wp-content/uploads/2018/09/AdasTrustandInvestmentInc_logo2.png",
-            "membershipLevel": "silver"
+            "membershipLevel": "silver",
+            "description": "Ada's Trust & Investment, Inc. is a family owned and operated real estate and investment company specializing in commercial buildings with office and professional space for leasing."
         },
         {
             "name": "Bambini Montessori School",
@@ -14,7 +15,8 @@
             "phoneNumber": "+1(671)787-5555",
             "websiteUrl": "http://www.bambinidayschool.com/",
             "companyImage": "http://www.bambinidayschool.com/images/banner03sep09%20copy.png",
-            "membershipLevel": "silver"
+            "membershipLevel": "silver",
+            "description": "For the past 7 years, Bambini Montessori School, has provided toddlers the tools necessary to excel in day-to-day and scholarly activities by fostering an integrated Early Childhood and Montesorri Education."
         },
         {
             "name": "Coast360 Federal Credit Union",
@@ -22,7 +24,8 @@
             "phoneNumber": "+1(671)643-5678",
             "websiteUrl": "http://www.coast360fcu.com/",
             "companyImage": "https://www.coast360fcu.com/templates/coast360_2017/images/Logo.png",
-            "membershipLevel": "gold"
+            "membershipLevel": "gold",
+            "description": "Our mission is to build a lifetime relationship by enriching each member's life through exceptional service; and to be stewards of our environment and community for all generations."
         },
         {
             "name": "Cutie Petunias",
@@ -30,7 +33,8 @@
             "phoneNumber": "+1(671)969-1010",
             "websiteUrl": "http://www.shopguambaby.com/",
             "companyImage": "https://cdn.shopify.com/s/files/1/0031/6843/6335/files/Final_GUBaby_Logo-01_360x.jpg?v=1613741346",
-            "membershipLevel": "bronze"
+            "membershipLevel": "bronze",
+            "description": "Cutie Petunias was established in 2012 by the inspiration of my daughter♡ Our local business began with handmade accessories. Then in 2015, my passion for designing clothes commenced and we expanded by launching our children's clothing line GUbaby (Guambaby)."
         },
         {
             "name": "DFS Guam",
@@ -38,7 +42,8 @@
             "phoneNumber": "+1(671)845-7890",
             "websiteUrl": "http://www.dfs.com/",
             "companyImage": "https://asset-lasamcd.dfs.com/image/upload/f_auto/q_auto/v1632464793/DFS-led%20Campaigns/2021/Samaritaine%20Website/desktop/DFS-TGalleria_100px_w_compress.png",
-            "membershipLevel": "gold"
+            "membershipLevel": "gold",
+            "description": "The DFS mark is a recognized symbol of quality, authenticity, personalized service and curation of the world's leading brands. We're the ultimate luxury retailer for travelers-both at home and abroad-with airport, downtown T Galleria by DFS & co-branded locations."
         },
         {
             "name": "Furniture Kathy Style",
@@ -46,15 +51,17 @@
             "phoneNumber": "+1(671)698-2344",
             "websiteUrl": "http://www.furniturekathystyle.com/",
             "companyImage": "https://www.furniturekathystyle.com/images/logo.png?ccid=x389550a8",
-            "membershipLevel": "silver"
+            "membershipLevel": "silver",
+            "description": "Furniture-Kathy Style is a Guam-based, locally owned furniture company providing beautiful, quality home furnishings from credible global designers and well-known U.S. manufacturers."
         },
         {
             "name": "Kitchen Lingo",
             "address": "153 Martyr St. Ste. 101 Hagatna, GU 96910",
             "phoneNumber": "+1(671)856-1324",
             "websiteUrl": "http://www.kitchenlingoguam.com/",
-            "companyImage": "https://static.wixstatic.com/media/4cdce2_4e7056d9221543e1be94da0a2685a24a~mv2_d_1500_1500_s_2.png/v1/fill/w_54,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4cdce2_4e7056d9221543e1be94da0a2685a24a~mv2_d_1500_1500_s_2.png",
-            "membershipLevel": "gold"
+            "companyImage": "https://static.wixstatic.com/media/4cdce2_88daa0231d594440be68fe0edfad0f3d~mv2.png/v1/fill/w_380,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4cdce2_88daa0231d594440be68fe0edfad0f3d~mv2.png",
+            "membershipLevel": "gold",
+            "description": "Our Mission: To practice uncompromising commitment to quality, sourcing the best local ingredients possible, serving innovative, chef-driven and value-focused craft food and drinks in a chic, intimate atmosphere driven by our island hospitality."
         }
     ]
 }

@@ -16,17 +16,50 @@ const displayDirectory = (data) => {
         const section = document.createElement('section');
         const businessImage = document.createElement('div');
         const businessInfo = document.createElement('div');
+        const businessContact = document.createElement('p')
 
         const logo = document.createElement('img');
-        const name = document.createElement('h3');
-
+        const name = document.createElement('h2');
+        const memberLevel = document.createElement('h4');
+        const desc = document.createElement('p');
+        const address = document.createElement('h3');
+        const phone = document.createElement('span')
+        const website = document.createElement('span')
 
 
         logo.setAttribute('src', business.companyImage);
 
         name.textContent = `${business.name}`;
+        desc.textContent = `${business.description}`;
+        address.innerHTML = `${business.address}`;
+        phone.innerHTML = `<i class="fa-solid fa-phone"></i>  ${business.phoneNumber}`;
+        website.innerHTML = `<a href=${business.websiteUrl} target='_blank'>Visit Website</a>`
+
+        memberLevel.textContent = `${business.membershipLevel}`;
+        if (memberLevel.textContent === 'bronze') {
+            memberLevel.style.backgroundColor = '#CD7F32';
+            memberLevel.style.color = 'white';
+        } else if (memberLevel.textContent === 'silver') {
+            memberLevel.style.backgroundColor = '#C0C0C0';
+            memberLevel.style.color = 'white';
+        } else if (memberLevel.textContent === 'gold') {
+            memberLevel.style.backgroundColor = '#FFD700';
+            memberLevel.style.color = 'white';
+        } else if (memberLevel.textContent === 'nonprofit') {
+            memberLevel.style.backgroundColor = '#9EC1CC';
+            memberLevel.style.color = 'white';
+        }
+
+        businessContact.appendChild(phone);
+        businessContact.appendChild(website);
 
         businessInfo.appendChild(name)
+        businessInfo.appendChild(address);
+        businessInfo.appendChild(memberLevel);
+        businessInfo.appendChild(desc);
+        businessInfo.appendChild(businessContact);
+        
+
         businessImage.appendChild(logo);
 
         section.appendChild(businessImage);

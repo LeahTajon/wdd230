@@ -773,32 +773,95 @@ main .thanks {
 
 /*--------------- DIRECTORY ----------------*/
 #cards {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
 #cards section {
     min-height: 35vh;
-    border: 1px solid red;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .3rem;
     margin: 1rem;
 
     display: flex;
+    flex-wrap: wrap;
 }
 
 #cards section div:first-child {
-    border: 1px solid yellow;
-    width: 50%;
+    width: 40%;
     align-self: center;
-}
-
-#cards section div:last-child {
-    border: 1px solid pink;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 #cards section div img {
     width: 100%;
 }
 
+#cards section div:last-child {
+    width: 60%;
+    
+}
 
+#cards section div h2 {
+    color: var(--accent2-color);
+    font-family: var(--font-2);
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem; 
 
+    margin: 1rem 1.5rem .5rem 1.5rem;
+}
+
+#cards section div p {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 2rem 1.5rem 2.5rem 1.5rem;
+}
+
+#cards section div h4 {
+    text-transform: capitalize;
+    margin: 0 1.5rem;
+    padding: .1rem .3rem;
+    width: 20%;
+    text-align: center;
+    border-radius: 2rem;
+    font-weight: 100;
+}
+
+#cards section div h3 {
+    margin: 0 1.5rem 1rem 1.5rem;   
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    letter-spacing: .05rem;
+}
+
+#cards section div:last-child p:last-child {
+    margin: 1rem 1.5rem 1rem 1.5rem;
+    display: flex;
+    gap: .2rem;
+}
+
+#cards section div:last-child p:last-child span {
+    width: 100%;
+    padding: .5rem;
+    margin: 0 0 1.5rem 0;
+
+    font-family: var(--font-2);
+    font-size: .95rem;
+    letter-spacing: .05rem;
+    text-align: center;
+    color: #606060;
+
+    background-color: var(--accent1-color);
+    border-radius: 3px;
+}
+
+#cards section div:last-child p:last-child span a {
+    color: #606060;
+}
+
+#cards section div:last-child p:last-child span a:hover {
+    color: var(--accent3-color);
+    text-decoration: underline;
+}
