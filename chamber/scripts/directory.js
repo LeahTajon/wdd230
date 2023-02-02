@@ -18,7 +18,7 @@ const displayDirectory = (data) => {
         const businessInfo = document.createElement('div');
 
         const logo = document.createElement('img');
-        const name = document.createElement('h4');
+        const name = document.createElement('h3');
 
 
 
