@@ -771,8 +771,19 @@ main .thanks {
     height: 25rem;
 }
 
+/*--------------- DIRECTORY ----------------*/
+#cards {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#cards section {
+    min-height: 35vh;
+    border: 1px solid red;
+    margin: 1rem;
 
 
+}
 
 
 

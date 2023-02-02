@@ -1,5 +1,5 @@
 {
-    "data": [
+    "businesses": [
         {
             "name": "Ada's Trust & Investment, Inc.",
             "address": "120 Father Duenas Ave. Capitol Plaza, Ste 101 Hagatna, GU 96910",
@@ -50,10 +50,8 @@
         },
         {
             "name": "Kitchen Lingo",
-            "address": "153 Martyr St. Ste. 101 Hagatna, GU 96910",
-            "phoneNumber": "+1(671)856-1324",
-            "websiteUrl": "http://www.kitchenlingoguam.com/",
-            "companyImage": "https://bloximages.newyork1.vip.townnews.com/guampdn.com/content/tncms/custom/image/2bac8eb6-cd32-11eb-8535-cb938bb2bf62.png?resize=750%2C108",
+            "address": "https://static.wixstatic.com/media/4cdce2_4e7056d9221543e1be94da0a2685a24a~mv2_d_1500_1500_s_2.png/v1/fill/w_54,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4cdce2_4e7056d9221543e1be94da0a2685a24a~mv2_d_1500_1500_s_2.png",
+            "companyImage": "",
             "membershipLevel": "silver"
         }
     ]
