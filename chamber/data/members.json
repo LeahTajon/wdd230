@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "name": "Ada's Trust & Investment, Inc.",
+            "address": "120 Father Duenas Ave. Capitol Plaza, Ste 101 Hagatna, GU 96910",
+            "phoneNumber": "+1(671)689-1234",
+            "websiteUrl": "www.adastrust.com",
+            "companyImage": "https://adastrust.com/wp-content/uploads/2018/09/AdasTrustandInvestmentInc_logo2.png",
+            "membershipLevel": "silver"
+        },
+        {
+            "name": "Bambini Montessori School",
+            "address": "227 Tumon Heights Rd. Tamuning, GU 96913",
+            "phoneNumber": "+1(671)787-5555",
+            "websiteUrl": "http://www.bambinidayschool.com/",
+            "companyImage": "http://www.bambinidayschool.com/images/banner03sep09%20copy.png",
+            "membershipLevel": "silver"
+        },
+        {
+            "name": "Coast360 Federal Credit Union",
+            "address": "450 Rte. 8 Maite, GU 96910",
+            "phoneNumber": "+1(671)643-5678",
+            "websiteUrl": "http://www.coast360fcu.com/",
+            "companyImage": "https://www.coast360fcu.com/templates/coast360_2017/images/Logo.png",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Cutie Petunias",
+            "address": "126 Rte. 8 Ste. 107 Hagatna, GU 96910",
+            "phoneNumber": "+1(671)969-1010",
+            "websiteUrl": "http://www.shopguambaby.com/",
+            "companyImage": "https://cdn.shopify.com/s/files/1/0031/6843/6335/files/Final_GUBaby_Logo-01_360x.jpg?v=1613741346",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name": "DFS Guam",
+            "address": "1296 Pale San Vitores Rd. Tamuning, GU 96913",
+            "phoneNumber": "+1(671)845-7890",
+            "websiteUrl": "http://www.dfs.com/",
+            "companyImage": "https://asset-lasamcd.dfs.com/image/upload/f_auto/q_auto/v1632464793/DFS-led%20Campaigns/2021/Samaritaine%20Website/desktop/DFS-TGalleria_100px_w_compress.png",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Furniture Kathy Style",
+            "address": "118 Martyr St. Hagatna, GU 96910",
+            "phoneNumber": "+1(671)698-2344",
+            "websiteUrl": "http://www.furniturekathystyle.com/",
+            "companyImage": "https://www.furniturekathystyle.com/images/logo.png?ccid=x389550a8",
+            "membershipLevel": "silver"
+        },
+        {
+            "name": "Kitchen Lingo",
+            "address": "153 Martyr St. Ste. 101 Hagatna, GU 96910",
+            "phoneNumber": "+1(671)856-1324",
+            "websiteUrl": "http://www.kitchenlingoguam.com/",
+            "companyImage": "https://bloximages.newyork1.vip.townnews.com/guampdn.com/content/tncms/custom/image/2bac8eb6-cd32-11eb-8535-cb938bb2bf62.png?resize=750%2C108",
+            "membershipLevel": "silver"
+        }
+    ]
+}
