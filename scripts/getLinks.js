@@ -1,30 +1,24 @@
-const urlLinks = 'https://github.com/LeahTajon/wdd230/blob/main/links.json';
+const linksUrl = 'https://raw.githubusercontent.com/LeahTajon/wdd230/main/links.json';
 
-const unOrdered = document.querySelector('ul');
+//const listUl = document.querySelector('#weekly-links');
 
-// async function getWeeklyList(url) {
-//     const response = await fetch(url);
-//     const data = await response.json();
-//     //console.log(data);
-//     displayLinks(data);
-// }
+const myLinks = document.querySelector('.my-links');
 
-fetch(urlLinks)
-    .then(response => response.json())
-    .then(data => {
-        displayLinks(data)
-    })
-    .catch(error => {
-        console.error('Error fetching data:', error);
-    });
-
-const displayLinks = (data) => {
-    data.forEach(link => {
-        const listElement = document.createElement('li');
-        
-        listElement.innerHTML = `<a href=${link.week01}>Links</a>`
-
-        unOrdered.appendChild(listElement);
-    })
+async function getWeeklyLinks() {
+    const response = await fetch(linksUrl);
+    const data = await response.json();
+    console.log(data);
+    displayLinks(data.links);
 }
 
+function displayLinks(data) {
+    data.forEach(link => {
+        const p = document.createElement('p');
+        
+        p.textContent = `${link.week01}`;
+        myLinks.appendChild(p);
+
+    });
+}
+
+getWeeklyLinks()

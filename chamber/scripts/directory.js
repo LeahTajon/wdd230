@@ -28,6 +28,8 @@ const displayDirectory = (data) => {
 
 
         logo.setAttribute('src', business.companyImage);
+        logo.setAttribute('alt', `${business.name} Logo`);
+        logo.setAttribute('loading', 'lazy');
 
         name.textContent = `${business.name}`;
         desc.textContent = `${business.description}`;
