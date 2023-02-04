@@ -20,7 +20,7 @@ const apiFetch = async () => {
     }
 };
 
-
+apiFetch();
   
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
@@ -32,4 +32,3 @@ function displayResults(data) {
    
 };
 
-apiFetch();
