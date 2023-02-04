@@ -922,6 +922,7 @@ main .thanks {
 .list section div h2{
     font-size: 2rem;
     text-align: center;
+    color: var(--primary-color);
 }
 .list section div h3, 
 .list section div p{
