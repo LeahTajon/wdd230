@@ -144,34 +144,43 @@
     }
 
      /* DIRECTORY PAGE */
-     #cards {
+     .cards {
         width: 100%;
      }
 
-     #cards section {
+    .cards section {
         display: flex;
-        flex-direction: column;
-     }
+    }
+    
+    .cards section div img{
+        width: 70%; 
+        margin: 0 15%;
+    }
 
-     #cards section div:first-child,
-     #cards section div:last-child {
-        width: 100%;
-        
-     }
+    .cards section div:first-child,
+    .cards section div:last-child {
+        width: 100%; 
+    }
 
-     #cards section div:first-child {
+    .cards section div:first-child {
         margin: 2rem 0;
-     }
+    }
 
-     #cards section div:last-child p:last-child {
+    .cards section div:last-child p:last-child {
         flex-direction: column;
-     }
+    }
 
-     #cards section div:last-child p:last-child span {
+    .cards section div:last-child p:last-child span {
         padding: 1rem;
         font-size: 1.3rem;
         margin: 0 0 .5rem .5rem;
-     }
+    }
+
+    .list section div h2 {
+        color: var(--primary-color);
+        text-align: center;
+    }
+
 }
 
 

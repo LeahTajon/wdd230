@@ -1,6 +1,6 @@
 const requestUrl = "https://raw.githubusercontent.com/LeahTajon/leahtajon.github.io/main/members.json";
 
-const cards = document.querySelector('#cards');
+const cards = document.querySelector('.cards');
 
 
 
@@ -61,7 +61,6 @@ const displayDirectory = (data) => {
         businessInfo.appendChild(desc);
         businessInfo.appendChild(businessContact);
         
-
         businessImage.appendChild(logo);
 
         section.appendChild(businessImage);
@@ -69,7 +68,6 @@ const displayDirectory = (data) => {
 
         cards.appendChild(section);
        
-        
     });
 }
 

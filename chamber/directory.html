@@ -20,6 +20,7 @@
     <!-- Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 
     <!-- Icon -->
     <link rel="icon" href="./images/GWCC-logo.png">
@@ -61,9 +62,14 @@
     <main>
         <h1>Business Directory</h1>
         <p>These companies, organizations, and individuals make Guam such a great place to live and do business. Plus, they've also discovered the benefits of membership in the Guam Women's Chamber of Commerce.</p>
-        <div id="cards">
-            
+        
+        <div class="directory-menu">
+            <button id="grid"><i class="fa-solid fa-grip-vertical icon"></i></button>
+            <button id="list"><i class="fa-sharp fa-solid fa-list-ul icon"></i></button>
         </div>
+        <article class="cards grid">
+            
+        </article>
     </main>
 
     <footer>
@@ -122,5 +128,6 @@
     <script src="./scripts/menu-button.js"></script>
     <script src="./scripts/getDates.js"></script>
     <script src="./scripts/directory.js"></script>
+    <script src="./scripts/grid-list.js"></script>
 </body>
 </html>
