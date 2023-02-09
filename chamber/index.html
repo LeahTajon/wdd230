@@ -150,19 +150,25 @@
                             </a>
                         </div>
                     </div>
-                    <div class="weather">
-                        <div class="weather-widget">
-                            <div class="location">New York, NY</div>
-                            
-                            <div class="temperature">72°F</div>
-                            <div class="conditions"><i class="fas fa-sun weather-icon"></i>Mostly Sunny</div>
-                          </div>
-                          
-                    </div> 
-                    
                 </div>
-            </div> 
+            </div>             
         </section>
+            <!-- Weather Section -->
+        
+        <section class="weather">
+                <div class="weather-widget">
+                    <div id="location">New York, NY</div>
+                    
+                    <div id="temp">72°F</div>
+                    <div class="conditions">
+                        <img src="" alt="" id="weather-icon">
+                        <p id="weather-desc"></p>
+                    </div>
+                </div>
+                <div class="weather-forecast">
+                    
+                </div>                         
+        </section> 
     </main>
 
     <footer>
@@ -219,6 +225,10 @@
         </div>
     </footer>
     <script src="./scripts/menu-button.js"></script>
-    <script src="./scripts/getDates.js"></script>
+    <!-- <script src="./scripts/getDates.js"></script> -->
+    <script src="./scripts/getWeather.js"></script>
+    <script src="./scripts/getForecast.js"></script>
+     
+    
 </body>
 </html>
