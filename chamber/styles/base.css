@@ -130,7 +130,7 @@ nav {
 
 /* Hero Section */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.webp");
     height: 75vh;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -177,15 +177,13 @@ nav {
     color: var(--accent4-color);
 }
 
-/* About */
+/*------- About ---------*/
 .about .row {
     display: flex;
     align-items: center;
     gap: 2rem;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-    padding-bottom: 3rem;
-    margin: 0 1rem;
+    padding: 0 0 3rem 0;
+    margin: 0 5rem;
 }
 
 .about .row .video-container {
@@ -195,16 +193,17 @@ nav {
 
 .about .row .video-container video {
     width: 100%;
+    height: auto;
     border: 1rem solid #fff;
-    border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
-    height: 100%;
     object-fit: cover;
 }
 
 .about .row .content {
     flex: 1 1 40rem;
     justify-content: left;
+    align-items: center;
+    margin: 0 1rem;
 }
 
 .about .row .content h3 {
@@ -213,14 +212,13 @@ nav {
 }
 
 .about .row .content p {
+    margin: 1rem 0;
     font-size: 1.5rem;
-    font-family: var(--font-1);
     color: var(--accent2-color);
-    padding: 1.5rem 0 2rem 0;
-    line-height: 2rem;
+    line-height: 2.1rem;
 }
 
-/* Stats */
+/*------ Stats ---------*/
 .stats {
     width: 100%;
     background-color: var(--accent1-color);
@@ -228,62 +226,69 @@ nav {
 
 .stats-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 2rem;
 }
 
 .stat-item {
     text-align: center;
-    line-height: 3rem;
-    color: var(--accent2-color);
+    line-height: 1.8rem;
+    color: var(--accent2-color); 
 }
 
-.stat-item h2 { 
-    font-size: 2.5rem;
+.stat-item h2 {
+    font-size: 2.5rem;  
+    margin: 0 auto;
+    padding: 1.2rem 0;
 }
 
 .stat-item h3 {
     font-size: 1rem;
-    font-weight: 100;
-    
+    font-weight: 100;  
 }
 
-/* Events and Weather */
+/*------ Events and Weather -----*/
+.event .row {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
 
-
-.events-row {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    margin: 0 1rem;
     gap: 1.5rem;
 }
 
-.main-event {
-    width: 45%;
-    position: relative;
+.event .row .event-image {
+    flex: 1 1 80rem;
 }
 
-.event-heading {
-    font-size: 1.5rem;
-    font-family: var(--font-1);
-    padding: 0 0 .5rem 0;
+.event .row .event-image img {
+    max-width: 100%;
+    object-fit: cover;
+    margin: 1rem;
 }
 
-.event-title {
-    font-size: 1.5rem;
+.event .row .event-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.event .row .event-content h5 {
+    font-size: 1rem;
+    margin: 2rem 0 0 1rem;
+    padding: 0 .5rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.event .row .event-content h3 {
+    font-size: 2rem;
+    margin: 1rem 0 0 1rem;
+    padding: 0 .5rem;
     color: var(--primary-color);
-}
-
-.event-text {
-    font-family: var(--font-1);
-    font-size: 1.2rem;  
-}
-
-.event-title,
-.event-text {
-    margin: 0 0 1rem 0;
 }
 
 .event-link {
@@ -294,9 +299,11 @@ nav {
     background-color: transparent; 
     padding: 0.5rem 1.2rem;
     border: 2px solid var(--primary-color);
-    -webkit-transition-duration: 0.4s; /*Safari  */
+    -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
-   
+    width: 10rem;
+    text-align: center;
+    margin: 2rem 0 0 1rem;
 }
 
 .event-link:hover {
@@ -304,84 +311,95 @@ nav {
     color: var(--accent3-color);
 }
 
-.main-event img {
-    width: 100%;
-    border: .8rem solid var(--accent3-color);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
-    object-fit: cover;
-    margin: 0 0 1rem 0;
-}
-
-.upcoming-events {
-    width: 50%;
-}
-.upcoming-events-content {
+/*------ Upcoming Events ---------*/
+.upcoming {
     display: flex;
-    margin: 1rem 0;
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    justify-content: flex-start;
-    
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.event-date {
-    border-right: 2px solid var(--accent3-color);
-    
-}
-
-.event-date p {
-    font-family: var(--font-2);
+.upcoming h5 {
+    padding: 2rem 0 1rem 0;
     text-transform: uppercase;
-    font-size: 1.1rem;
-    padding: 0 1.5rem;
-    margin: .5rem 0 .5rem 0;
-    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    color: rgba(0, 0, 0, 0.7);
+    flex: 1 1 1 0%;
+    width: 90%;
 }
 
-.event-date h3 {
+.upcoming .row {
+    width: 23rem;
+    
+    padding: 0 0 1rem 0;
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 1.5rem 0;
+}
+
+.upcoming .row .upcoming-image{
+    position: relative;
+}
+
+.upcoming .row .upcoming-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.upcoming .row .upcoming-image h3 {
+    position: absolute;
+    padding: .5rem;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    
+    text-transform: uppercase;
     text-align: center;
-    font-size: 2.5rem;
-}
-
-.event-info p{
-    font-size: 1.2rem;
-    color: rgb(16,16,16);
-    margin: .8rem 1.5rem;
-}
-
-.event-info h2 {
+    background-color: var(--primary-color);
     color: var(--accent3-color);
-    letter-spacing: .125rem;
 }
 
-.event-info .event-caption {
-    color: rgb(16,16,16);
-    font-size: 1.3rem;
+.upcoming .row .upcoming-image h3 .month {
+    font-weight: 100;
+    font-size: 1rem;
 }
 
-.event-info .event-link {
-    color: var(--accent3-color);
-    font-weight: bold;
-    display: inline-block;
-    border-radius: 5rem;
-    background-color: transparent; 
-    padding: 0.5rem 1.2rem;
-    margin: 1rem;
-    border: 2px solid var(--accent3-color);
-    -webkit-transition-duration: 0.4s; /*Safari  */
-    transition-duration: 0.4s;
+.upcoming .row .upcoming-image h3 .date {
+    font-size: 1.5rem;
 }
 
-.event-info .event-link:hover {
-    background-color: var(--accent3-color);
-    color: var(--primary-color);
+.upcoming .row .upcoming-content {
+    position: relative;
+    min-height: 60vh;
+}
+
+.upcoming .row .upcoming-content .event-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.upcoming .row .upcoming-content h3{
+    display: flex;
+    gap: .5rem;
+    margin: .6rem 2rem 0 1.2rem;
+
+    color:rgba(0, 0, 0, 0.6);
+    font-weight: 100;
+    font-size: 1.125rem;
 }
 
 /*------ Weather ---------*/
 .weather {
     background-color: var(--accent1-color);
-    border-radius: 5px;
-    margin-bottom: 1rem;
+    width: 90%;
+    margin: 0 auto;
+
 }
 
 .weather-widget {
@@ -454,6 +472,7 @@ nav {
 /* FOOTER */
 footer {
     background: var(--accent2-color);
+    margin: 1rem 0;
 }
 
 .row-footer {

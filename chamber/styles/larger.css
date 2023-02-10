@@ -55,12 +55,38 @@
     .hero-text {
         padding: 8rem 2.5rem;
         font-size: .8rem;
+        margin: 0 auto;
     }
 
     /* About */
-    .content {
+    .about .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        padding: .8rem 0;
+        margin: 0 auto;
+    }
+
+    .about .row .video-container {
+        flex: 1 1 .5rem;
+    }
+
+    .about .row .video-container video {
+        border: .5rem solid #fff;
+    
+    }
+
+    .about .row .content {
+        flex: 1 1 .5rem;
         text-align: center;
-        padding: 1rem 2.5rem;
+    }
+
+    .about .row .content h3,
+    .about .row .content p {
+        line-height: 1.8rem;
+        padding: .3rem 0;
+
     }
 
     /* Stats */
@@ -72,6 +98,57 @@
         padding: 1rem 0;
     }
 
+    /* Events */
+    .event .row {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .event .row .event-image {
+        flex: 1 1 5rem;
+        width: 100%;
+    }
+    
+    .event .row .event-image img {
+        width: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .event .row .event-content {
+        margin: 0;
+    }
+
+    .event .row .event-content p {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .event .row .event-content .event-link {
+        margin: 1rem 0 2rem 1rem;
+    }
+
+    /* Upcoming Events */
+    .upcoming {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .upcoming .row {
+        width: 100%;
+    }
+
+    .upcoming .row .upcoming-content {
+        min-height: 60vh;
+    }
+
+    .upcoming .row .upcoming-content h3,
+    .upcoming .row .upcoming-content h2,
+    .upcoming .row .upcoming-content p {
+        font-size: 1.3rem;
+    }
+    
     /* Footer */
     .row-footer {
         display: flex;
@@ -99,19 +176,7 @@
 
     .student-info p{
         padding: .1rem 0;
-    }
-
-    /* Events */
-    .events-row {
-        margin: 0 auto;
-    }
-
-    .main-event, .upcoming-events {
-        width: 100%;
-        margin: 1rem;
-    }
-
-    
+    }    
 
     /* DISCOVERY PAGE */
     .sidebar {
