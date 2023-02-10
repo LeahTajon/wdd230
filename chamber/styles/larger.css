@@ -41,7 +41,6 @@
 
     .nav-link {
         color: white;
-        
     }
 
     .nav-link:hover {
@@ -140,7 +139,7 @@
     }
 
     .upcoming .row .upcoming-content {
-        min-height: 60vh;
+        min-height: 80vh;
     }
 
     .upcoming .row .upcoming-content h3,
@@ -166,6 +165,10 @@
 
     .col-3 p {
         line-height: 1.2rem;
+    }
+
+    .col-2 i {
+        max-width: 100%;
     }
 
     .student-info {
