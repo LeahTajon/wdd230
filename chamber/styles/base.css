@@ -649,7 +649,7 @@ footer {
 
 .local-storage span {
     font-size: 1rem;
-    color: var(--accent4-color);
+    color: var(--primary-color);
 }
 
 .photo-wrapper {
@@ -665,7 +665,7 @@ footer {
 .photo-wrapper figcaption {
     font-family: var(--font-2);
     text-align: left;
-    color: var(--accent4-color);
+    color: var(--accent2-color);
     
 }
 
