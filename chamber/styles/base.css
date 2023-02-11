@@ -416,7 +416,7 @@ nav {
 }
 
 .member-ads section {
-    flex: 1 1 1 40rem;
+    flex: 1 1 1 30rem;
     height: auto;
     margin: 1.5rem 0;
     padding: .5rem;
@@ -424,7 +424,7 @@ nav {
 }
 .member-ads section img {
     max-width: 100%;
-    height: 30rem;
+    height: 25rem;
     object-fit: cover;
     
     display: block;

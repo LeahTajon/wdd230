@@ -51,7 +51,6 @@ function getBusiness(data) {
         adsDiv.appendChild(sectionBusiness1);
         adsDiv.appendChild(sectionBusiness2);
     }
-    
 }
 
 function generateRandomNumber(num) {
