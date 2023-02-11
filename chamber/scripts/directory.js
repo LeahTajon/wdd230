@@ -40,16 +40,16 @@ const displayDirectory = (data) => {
         memberLevel.textContent = `${business.membershipLevel}`;
         if (memberLevel.textContent === 'bronze') {
             memberLevel.style.backgroundColor = '#CD7F32';
-            memberLevel.style.color = 'white';
+            memberLevel.style.color = '#333';
         } else if (memberLevel.textContent === 'silver') {
             memberLevel.style.backgroundColor = '#C0C0C0';
-            memberLevel.style.color = 'white';
+            memberLevel.style.color = '#333';
         } else if (memberLevel.textContent === 'gold') {
             memberLevel.style.backgroundColor = '#FFD700';
-            memberLevel.style.color = 'white';
+            memberLevel.style.color = '#333';
         } else if (memberLevel.textContent === 'nonprofit') {
             memberLevel.style.backgroundColor = '#9EC1CC';
-            memberLevel.style.color = 'white';
+            memberLevel.style.color = '#333';
         }
 
         businessContact.appendChild(phone);

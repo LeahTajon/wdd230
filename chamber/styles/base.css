@@ -927,7 +927,7 @@ main .thanks {
     margin: 0 1.5rem 1rem 1.5rem;   
     font-weight: 400;
     font-size: 1.1rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     letter-spacing: .05rem;
 }
 
@@ -946,18 +946,18 @@ main .thanks {
     font-size: .95rem;
     letter-spacing: .05rem;
     text-align: center;
-    color: #606060;
+    color: #333;
 
     background-color: var(--accent1-color);
     border-radius: 3px;
 }
 
 .cards section div:last-child p:last-child span a {
-    color: #606060;
+    color:#333;
 }
 
 .cards section div:last-child p:last-child span a:hover {
-    color: var(--accent3-color);
+    color: var(--accent2-color);
     text-decoration: underline;
 }
 
