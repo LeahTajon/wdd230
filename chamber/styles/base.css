@@ -368,7 +368,7 @@ nav {
     text-transform: uppercase;
     text-align: center;
     background-color: var(--primary-color);
-    color: var(--accent3-color);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .upcoming .row .upcoming-image h3 .month {
@@ -576,6 +576,10 @@ footer {
     cursor: pointer;
 }
 
+.col-3 ul li a {
+    color: var(--accent3-color);
+}
+
 .student-info {
     display: flex;
     justify-content: space-around;
@@ -583,7 +587,7 @@ footer {
     margin: 0 auto;
 
     padding: 1rem 0;
-    color: var(--primary-color);
+    color: var(--accent1-color);
 
 }
 
