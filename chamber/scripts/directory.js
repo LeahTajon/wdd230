@@ -1,4 +1,4 @@
-const requestUrl = "https://raw.githubusercontent.com/LeahTajon/leahtajon.github.io/main/members.json";
+const requestUrl = "https://raw.githubusercontent.com/LeahTajon/wdd230/main/members.json";
 
 const cards = document.querySelector('.cards');
 
