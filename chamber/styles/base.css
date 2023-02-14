@@ -333,7 +333,6 @@ nav {
     font-size: 1rem;
     letter-spacing: .2rem;
     color: rgba(0, 0, 0, 0.7);
-    flex: 1 1 1 0%;
     width: 90%;
 }
 
@@ -416,7 +415,7 @@ nav {
 }
 
 .member-ads section {
-    flex: 1 1 1 30rem;
+    flex: 1 1 30rem;
     height: auto;
     margin: 1.5rem 0;
     padding: .5rem;
