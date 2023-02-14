@@ -820,6 +820,7 @@ form input.submitBtn {
 }
 .card p {
     font-family: var(--font-2);
+    font-weight: bold;
     margin: .8rem 0;
     padding: 0 1rem;
     font-size: 1.1rem;
