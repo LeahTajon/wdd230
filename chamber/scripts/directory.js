@@ -39,7 +39,7 @@ const displayDirectory = (data) => {
 
         memberLevel.textContent = `${business.membershipLevel}`;
         if (memberLevel.textContent === 'bronze') {
-            memberLevel.style.backgroundColor = '#CD7F32';
+            memberLevel.style.backgroundColor = '#D2B48C';
             memberLevel.style.color = '#333';
         } else if (memberLevel.textContent === 'silver') {
             memberLevel.style.backgroundColor = '#C0C0C0';
