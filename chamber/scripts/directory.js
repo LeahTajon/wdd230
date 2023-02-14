@@ -2,9 +2,6 @@ const requestUrl = "https://raw.githubusercontent.com/LeahTajon/wdd230/main/memb
 
 const cards = document.querySelector('.cards');
 
-
-
-
 async function fetchDirectory() {
     const response = await fetch(requestUrl);
     const data = await response.json();
