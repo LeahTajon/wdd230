@@ -716,14 +716,14 @@ main p, .member-benefits p {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--accent2-color);
     border-radius: 10px;
     padding: .5rem 2%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.0) 0px 2px 4px -1px;
 }
 
 form legend {
-    color: var(--primary-color);
+    color: var(--accent2-color);
     font-weight: bold;
     margin: 0 1rem;
     padding: 0 .5rem;
