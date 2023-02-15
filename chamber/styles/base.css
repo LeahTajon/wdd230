@@ -435,7 +435,11 @@ nav {
     background-color: var(--accent1-color);
     width: 90%;
     margin: 0 auto;
+}
 
+.weather h3 {
+    text-align: center;
+    padding: 1rem 0 0 0;
 }
 
 .weather-widget {
