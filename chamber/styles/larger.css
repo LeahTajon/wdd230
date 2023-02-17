@@ -273,6 +273,11 @@
         color: var(--primary-color);
         text-align: center;
     }
+
+    /*---- JOIN ----*/
+    form input.submitBtn {
+        width: 100%;
+    } 
 }
 
 
